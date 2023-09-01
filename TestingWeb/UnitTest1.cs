@@ -9,7 +9,7 @@ namespace TestingWeb
             WebTest.Logic logic = new WebTest.Logic();
 
             int result = logic.Multiplicar(5, 5);
-            Assert.AreEqual(result, 5);
+            Assert.AreEqual(result, 25);
         }
     }
 }
